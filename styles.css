@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-size: 100%;
+  background-image:  url("images/backgroundimage1.jpg");
+  background-repeat: no-repeat;
+ 
+}
+
+h1 {
+  font-size: 5rem;
+  color: #f4f7f8;
+  /* font-family: "Arvo", cursive; */
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 0 #9906ee;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.p {
+  background-image: url("images/crash.png");
+  background-size: 150px 150px;
+}
+.k {
+    background-image: url("images/kick.png");
+    background-size: 150px 150px;
+}
+
+.b {
+    background-image: url("images/snare.png");
+    background-size: 150px 150px;
+}
+
+.o {
+    background-image: url("images/tom1.png");
+    background-size: 150px 150px;
+}
+
+.d {
+    background-image: url("images/tom2.png");
+    background-size: 150px 150px;
+}
+
+.t {
+    background-image: url("images/tom3.png");
+    background-size: 150px 150px;
+}
+
+.a {
+    background-image: url("images/tom4.png");
+    background-size: 150px 150px;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #aacea7;
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #9906ee;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
